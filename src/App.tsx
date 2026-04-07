@@ -3,8 +3,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import Index from "./pages/Index.tsx";
-import NotFound from "./pages/NotFound.tsx";
+import Index from "./pages/Index";
+import ReviewPage from "./pages/ReviewPage";
+import ComparisonPage from "./pages/ComparisonPage";
+import BestOfPage from "./pages/BestOfPage";
+import HowToPage from "./pages/HowToPage";
+import EducationalPage from "./pages/EducationalPage";
+import AboutPage from "./pages/AboutPage";
+import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
@@ -16,7 +22,12 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/review/:slug" element={<ReviewPage />} />
+          <Route path="/compare/:slug" element={<ComparisonPage />} />
+          <Route path="/best/:slug" element={<BestOfPage />} />
+          <Route path="/how-to/:slug" element={<HowToPage />} />
+          <Route path="/learn/:slug" element={<EducationalPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
