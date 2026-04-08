@@ -7,6 +7,7 @@ export interface HowToPage {
   steps: { title: string; content: string }[];
   tips: string[];
   conclusion: string;
+  faq?: { q: string; a: string; providerSlug?: string; providerName?: string }[];
 }
 
 export const howToPages: HowToPage[] = [
