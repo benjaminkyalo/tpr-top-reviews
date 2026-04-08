@@ -76,12 +76,9 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
-          <span className="rounded border border-border px-2 py-1 text-xs font-medium text-muted-foreground">EN</span>
-          <button className="lg:hidden" onClick={() => setMobileOpen(!mobileOpen)}>
-            {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
-        </div>
+        <button className="lg:hidden" onClick={() => setMobileOpen(!mobileOpen)}>
+          {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        </button>
       </div>
 
       {mobileOpen && (
