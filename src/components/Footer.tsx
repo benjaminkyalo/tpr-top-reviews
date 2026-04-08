@@ -11,7 +11,6 @@ export default function Footer() {
               <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Top Proxy Reviews</span>
             </Link>
             <p className="mt-3 text-sm text-muted-foreground">Independent proxy and VPN reviews since 2024. We test every service we recommend.</p>
-            <p className="mt-2 text-xs text-muted-foreground italic">Affiliate Disclosure: We may earn commissions from purchases made through links on this site.</p>
           </div>
           <div>
             <h4 className="mb-3 text-sm font-semibold text-foreground">Reviews</h4>
