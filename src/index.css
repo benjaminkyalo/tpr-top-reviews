@@ -6,52 +6,52 @@
 
 @layer base {
   :root {
-    --background: 210 33% 15%;
-    --foreground: 0 0% 100%;
+    --background: 0 0% 98%;
+    --foreground: 210 30% 15%;
 
-    --card: 210 30% 18%;
-    --card-foreground: 0 0% 100%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 30% 15%;
 
-    --popover: 210 30% 18%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 30% 15%;
 
     --primary: 0 68% 42%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 25% 22%;
-    --secondary-foreground: 0 0% 95%;
+    --secondary: 210 15% 93%;
+    --secondary-foreground: 210 30% 20%;
 
-    --muted: 210 20% 25%;
-    --muted-foreground: 210 15% 65%;
+    --muted: 210 15% 95%;
+    --muted-foreground: 210 10% 45%;
 
     --accent: 0 68% 42%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 28%;
-    --input: 210 20% 28%;
+    --border: 210 15% 88%;
+    --input: 210 15% 88%;
     --ring: 0 68% 42%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 210 30% 12%;
-    --sidebar-foreground: 0 0% 95%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 210 30% 15%;
     --sidebar-primary: 0 68% 42%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 25% 20%;
-    --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 210 20% 25%;
+    --sidebar-accent: 210 15% 95%;
+    --sidebar-accent-foreground: 210 30% 20%;
+    --sidebar-border: 210 15% 90%;
     --sidebar-ring: 0 68% 42%;
 
     /* Custom tokens */
-    --surface: 210 28% 20%;
-    --surface-hover: 210 25% 24%;
-    --score-gold: 45 90% 55%;
-    --badge-residential: 150 60% 40%;
-    --badge-datacenter: 210 70% 50%;
-    --text-dim: 210 15% 55%;
+    --surface: 210 15% 96%;
+    --surface-hover: 210 15% 92%;
+    --score-gold: 45 90% 40%;
+    --badge-residential: 150 60% 35%;
+    --badge-datacenter: 210 70% 45%;
+    --text-dim: 210 10% 50%;
   }
 }
 
