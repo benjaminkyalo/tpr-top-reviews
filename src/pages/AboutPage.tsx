@@ -1,11 +1,30 @@
 import Layout from "@/components/Layout";
+import SEOHead from "@/components/SEOHead";
+
+const BASE = "https://toptierproxy.com";
 
 export default function AboutPage() {
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: BASE },
+      { "@type": "ListItem", position: 2, name: "About TPR", item: `${BASE}/about` },
+    ],
+  };
+
   return (
     <Layout>
+      <SEOHead
+        title="About TPR – Independent Proxy & VPN Review Experts | Top Proxy Reviews"
+        description="Learn about Top Proxy Reviews (TPR) — the world's most trusted independent proxy and VPN review platform. Our expert methodology, editorial independence, and 30-day testing process."
+        canonical={`${BASE}/about`}
+        jsonLd={breadcrumbLd}
+      />
       <section className="border-b border-border bg-muted/30 py-12">
         <div className="container mx-auto px-4">
-          <h1 className="font-display text-3xl font-bold md:text-4xl">About TPR</h1>
+          <nav className="mb-3 text-xs text-muted-foreground"><a href="/" className="hover:text-primary">Home</a> &gt; <span className="text-foreground">About TPR</span></nav>
+          <h1 className="font-display text-3xl font-bold md:text-4xl">About TPR – Top Proxy Reviews</h1>
           <p className="mt-3 max-w-2xl text-muted-foreground">Independent proxy and VPN reviews you can trust.</p>
         </div>
       </section>
