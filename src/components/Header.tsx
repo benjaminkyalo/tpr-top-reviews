@@ -46,7 +46,7 @@ export default function Header() {
           {navItems.map((item) => (
             <div
               key={item.label}
-              className="relative"
+              className="group relative"
               onMouseEnter={() => item.children && setOpenDropdown(item.label)}
               onMouseLeave={() => setOpenDropdown(null)}
             >
@@ -60,7 +60,11 @@ export default function Header() {
                 {item.children && <ChevronDown className="h-3 w-3" />}
               </Link>
               {item.children && openDropdown === item.label && (
-                <div className="absolute left-0 top-full z-50 mt-1 w-56 rounded-lg border border-border bg-card p-2 shadow-xl">
+                <div
+                  className="absolute left-0 top-full z-50 w-56 rounded-lg border border-border bg-card p-2 shadow-xl"
+                  onMouseEnter={() => setOpenDropdown(item.label)}
+                  onMouseLeave={() => setOpenDropdown(null)}
+                >
                   {item.children.map((child) => (
                     <Link
                       key={child.path}
