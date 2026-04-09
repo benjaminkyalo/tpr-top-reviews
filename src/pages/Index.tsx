@@ -70,7 +70,7 @@ export default function Index() {
       {/* Hero with background image */}
       <section className="relative overflow-hidden py-12 md:py-16">
         <img src={HERO_BG} alt="Best proxy and VPN services 2026" className="absolute inset-0 h-full w-full object-cover" width={1920} height={800} loading="eager" />
-        <div className="absolute inset-0 bg-background/85" />
+        <div className="absolute inset-0 bg-background/75" />
         <div className="container relative mx-auto px-4 text-center">
           <h1 className="font-display text-3xl font-bold leading-tight md:text-5xl">
             Best Proxy & VPN Services 2026<br />
