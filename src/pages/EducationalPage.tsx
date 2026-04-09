@@ -11,6 +11,16 @@ export default function EducationalPage() {
   const page = getEducationalBySlug(slug || "");
   if (!page) return <Layout><div className="container mx-auto px-4 py-20 text-center"><h1 className="text-2xl font-bold">Page not found</h1><Link to="/" className="mt-4 inline-block text-primary">← Home</Link></div></Layout>;
 
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: BASE },
+      { "@type": "ListItem", position: 2, name: "Learning Center", item: `${BASE}/guides` },
+      { "@type": "ListItem", position: 3, name: page.title, item: `${BASE}/learn/${page.slug}` },
+    ],
+  };
+
   const faqLd = page.faq.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -20,6 +30,7 @@ export default function EducationalPage() {
   return (
     <Layout>
       <SEOHead title={page.metaTitle} description={page.metaDesc} canonical={`${BASE}/learn/${page.slug}`} jsonLd={faqLd} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <section className="border-b border-border bg-muted/30 py-12">
         <div className="container mx-auto px-4">
           <nav className="mb-3 text-xs text-muted-foreground"><Link to="/" className="hover:text-primary">Home</Link> &gt; <span>Learning Center</span> &gt; <span className="text-foreground">{page.title}</span></nav>
