@@ -5,7 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 import { getComparisonBySlug } from "@/data/comparisons";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 
 export default function ComparisonPage() {
   const { slug } = useParams<{ slug: string }>();

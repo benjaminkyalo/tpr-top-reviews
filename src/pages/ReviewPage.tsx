@@ -5,7 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 import { getProviderBySlug, providers } from "@/data/providers";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 
 export default function ReviewPage() {
   const { slug } = useParams<{ slug: string }>();

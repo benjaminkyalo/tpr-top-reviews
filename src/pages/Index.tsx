@@ -5,7 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 import { providers } from "@/data/providers";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 const HERO_BG = "https://res.cloudinary.com/dkcqakosa/image/upload/v1775563386/199fd29184c6cff24e3445f849af463e_2_1_ycuszl.png";
 
 const providerLink = (name: string, slug: string) => (

@@ -4,7 +4,7 @@ import { bestOfPages } from "@/data/bestOf";
 import { howToPages } from "@/data/howTo";
 import { educationalPages } from "@/data/educational";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 
 function entry(path: string, priority: string, changefreq = "weekly") {
   return `  <url>\n    <loc>${BASE}${path}</loc>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n    <lastmod>2026-04-09</lastmod>\n  </url>`;

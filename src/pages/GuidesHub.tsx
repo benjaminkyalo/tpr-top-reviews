@@ -5,7 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import { howToPages } from "@/data/howTo";
 import { educationalPages } from "@/data/educational";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 
 export default function GuidesHub() {
   return (

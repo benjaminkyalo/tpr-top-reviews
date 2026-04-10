@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 
 export default function AboutPage() {
   const breadcrumbLd = {
@@ -35,7 +35,7 @@ export default function AboutPage() {
         <h2 className="font-display text-xl font-bold text-foreground">Editorial Independence</h2>
         <p>While we may earn affiliate commissions from some links on our site, this never influences our rankings or reviews. Our editorial team operates independently from our business team, and no provider can pay for a higher ranking.</p>
         <h2 className="font-display text-xl font-bold text-foreground">Contact Us</h2>
-        <p>Have questions or feedback? Reach out to our team at contact@toptierproxy.com. We'd love to hear from you.</p>
+        <p>Have questions or feedback? Reach out to our team at contact@topvpnr.com. We'd love to hear from you.</p>
       </div>
     </Layout>
   );
