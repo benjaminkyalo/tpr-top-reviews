@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 
 export default function PrivacyPage() {
   return (
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
         <h2 className="font-display text-xl font-bold text-foreground">Data Security</h2>
         <p>We implement appropriate security measures to protect any information collected. Our site uses HTTPS encryption for all connections.</p>
         <h2 className="font-display text-xl font-bold text-foreground">Contact</h2>
-        <p>For privacy-related inquiries, contact us at privacy@toptierproxy.com.</p>
+        <p>For privacy-related inquiries, contact us at privacy@topvpnr.com.</p>
       </div>
     </Layout>
   );

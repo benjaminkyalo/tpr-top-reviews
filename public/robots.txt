@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://toptierproxy.com/sitemap.xml
+Sitemap: https://topvpnr.com/sitemap.xml

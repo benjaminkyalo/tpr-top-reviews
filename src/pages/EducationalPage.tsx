@@ -4,7 +4,7 @@ import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 import { getEducationalBySlug } from "@/data/educational";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 
 export default function EducationalPage() {
   const { slug } = useParams<{ slug: string }>();

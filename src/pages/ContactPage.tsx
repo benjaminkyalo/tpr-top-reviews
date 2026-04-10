@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 
-const BASE = "https://toptierproxy.com";
+const BASE = "https://topvpnr.com";
 
 export default function ContactPage() {
   return (
@@ -18,22 +18,22 @@ export default function ContactPage() {
           <div className="rounded-xl border border-border bg-card p-6">
             <h2 className="font-display text-lg font-bold text-foreground">General Inquiries</h2>
             <p className="mt-2 text-sm text-muted-foreground">For questions about our reviews, methodology, or content.</p>
-            <p className="mt-3 text-sm font-semibold text-primary">contact@toptierproxy.com</p>
+            <p className="mt-3 text-sm font-semibold text-primary">contact@topvpnr.com</p>
           </div>
           <div className="rounded-xl border border-border bg-card p-6">
             <h2 className="font-display text-lg font-bold text-foreground">Partnerships</h2>
             <p className="mt-2 text-sm text-muted-foreground">Interested in having your service reviewed or listed?</p>
-            <p className="mt-3 text-sm font-semibold text-primary">partners@toptierproxy.com</p>
+            <p className="mt-3 text-sm font-semibold text-primary">partners@topvpnr.com</p>
           </div>
           <div className="rounded-xl border border-border bg-card p-6">
             <h2 className="font-display text-lg font-bold text-foreground">Press & Media</h2>
             <p className="mt-2 text-sm text-muted-foreground">For press inquiries, interviews, or media collaborations.</p>
-            <p className="mt-3 text-sm font-semibold text-primary">press@toptierproxy.com</p>
+            <p className="mt-3 text-sm font-semibold text-primary">press@topvpnr.com</p>
           </div>
           <div className="rounded-xl border border-border bg-card p-6">
             <h2 className="font-display text-lg font-bold text-foreground">Report an Issue</h2>
             <p className="mt-2 text-sm text-muted-foreground">Found incorrect information or a broken link? Let us know.</p>
-            <p className="mt-3 text-sm font-semibold text-primary">support@toptierproxy.com</p>
+            <p className="mt-3 text-sm font-semibold text-primary">support@topvpnr.com</p>
           </div>
         </div>
       </div>
