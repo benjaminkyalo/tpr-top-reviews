@@ -13,6 +13,8 @@ export default function ComparisonPage() {
   const comp = getComparisonBySlug(slug || "");
   if (!comp) return <Layout><div className="container mx-auto px-4 py-20 text-center"><h1 className="text-2xl font-bold">Comparison not found</h1><Link to="/" className="mt-4 inline-block text-primary">← Home</Link></div></Layout>;
 
+  const prov1 = getProviderBySlug(comp.provider1);
+  const prov2 = getProviderBySlug(comp.provider2);
   const faqItems = comp.faq || [];
 
   const faqLd = faqItems.length > 0 ? {
@@ -98,6 +100,10 @@ export default function ComparisonPage() {
         <div className="mt-8 rounded-lg border-2 border-primary/30 bg-primary/5 p-6">
           <h2 className="mb-2 font-display text-xl font-bold">Verdict: {comp.winner}</h2>
           <p className="text-muted-foreground">{comp.verdict}</p>
+          <div className="mt-4 flex flex-wrap gap-3">
+            {prov1 && <a href={prov1.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90">Visit {prov1.name} <ExternalLink className="h-3.5 w-3.5" /></a>}
+            {prov2 && <a href={prov2.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 rounded-md border border-primary px-5 py-2.5 text-sm font-semibold text-primary hover:bg-primary/10">Visit {prov2.name} <ExternalLink className="h-3.5 w-3.5" /></a>}
+          </div>
         </div>
 
         {/* FAQ */}
