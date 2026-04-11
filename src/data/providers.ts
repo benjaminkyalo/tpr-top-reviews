@@ -20,6 +20,7 @@ export interface Provider {
   extendedVerdict: string;
   plans: { name: string; price: string; features: string[] }[];
   whoShouldUse: string[];
+  affiliateUrl: string;
 }
 
 export const providers: Provider[] = [
