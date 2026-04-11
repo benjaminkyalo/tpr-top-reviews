@@ -113,7 +113,7 @@ export default function Index() {
                   </td>
                   <td className="hidden px-4 py-3 text-sm text-muted-foreground md:table-cell">{p.bestFor}</td>
                   <td className="px-4 py-3 text-right">
-                    <a href="#" className="inline-flex items-center gap-1 rounded-md bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground transition-colors hover:bg-primary/90">Visit <ExternalLink className="h-3 w-3" /></a>
+                    <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-1 rounded-md bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground transition-colors hover:bg-primary/90">Visit <ExternalLink className="h-3 w-3" /></a>
                   </td>
                 </tr>
               ))}
