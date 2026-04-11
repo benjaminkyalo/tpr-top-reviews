@@ -42,6 +42,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["10,000+ proxies", "Dedicated IPs", "SLA guarantee", "Account manager", "Custom integration"] },
     ],
     whoShouldUse: ["Budget-conscious developers needing reliable datacenter proxies", "Web scraping and data mining projects at any scale", "SEO monitoring and SERP tracking operations", "Market research and competitive intelligence teams", "QA testing across multiple geographic locations", "API development and testing workflows", "Academic researchers collecting web data", "Startup teams needing affordable proxy infrastructure"],
+    affiliateUrl: "https://www.webshare.io/?referral_code=gp0x8ig1cckr",
   },
   {
     rank: 2, name: "IPRoyal", slug: "iproyal", type: "Residential", score: 9.70,
@@ -61,6 +62,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["Custom volume discounts", "SLA guarantee", "Dedicated account manager", "Custom integration", "Invoice billing"] },
     ],
     whoShouldUse: ["E-commerce businesses monitoring competitor pricing and inventory", "Ad verification teams validating global ad placements", "Social media managers operating multiple platform accounts", "Price comparison platforms aggregating retail data", "Market research firms collecting consumer behavior data", "Brand protection teams monitoring trademark violations", "SEO agencies tracking localized search rankings", "Travel and hospitality companies comparing rates across markets"],
+    affiliateUrl: "https://iproyal.com/?r=residentialproxies",
   },
   {
     rank: 3, name: "Shifter.io", slug: "shifter-io", type: "Residential", score: 9.60,
@@ -80,6 +82,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["500+ concurrent ports", "Dedicated infrastructure", "SLA guarantee", "Custom integration", "Account manager"] },
     ],
     whoShouldUse: ["Large-scale web scraping operations processing millions of pages", "Data aggregation companies building comprehensive datasets", "Market intelligence firms monitoring global trends", "Enterprise data teams with unpredictable bandwidth needs", "Price monitoring services tracking thousands of products", "Real estate data aggregators collecting listing information", "Travel industry scrapers comparing prices across platforms", "News and media monitoring services aggregating content"],
+    affiliateUrl: "https://shifter.io/r/y0W4/homepage",
   },
   {
     rank: 4, name: "ProxyScrape", slug: "proxyscrape", type: "Datacenter", score: 9.50,
@@ -99,6 +102,7 @@ export const providers: Provider[] = [
       { name: "Business", price: "$49.99/mo", features: ["10,000 premium proxies", "Custom rotation rules", "SLA guarantee", "Webhook notifications", "Dedicated support"] },
     ],
     whoShouldUse: ["Beginner developers learning web scraping and proxy management", "Small to medium web scraping and data collection projects", "Hobby projects and personal automation tools", "Development and testing environments needing multi-protocol proxies", "Academic researchers collecting publicly available web data", "Students learning about networking and proxy technologies", "QA engineers testing application proxy compatibility", "Open source projects needing free proxy access"],
+    affiliateUrl: "https://proxyscrape.com/?ref=yzcxmmj",
   },
   {
     rank: 5, name: "NetNut", slug: "netnut", type: "Residential", score: 9.40,
@@ -118,6 +122,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["Custom volume with volume discounts", "Dedicated ISP peering", "SLA guarantee with credits", "24/7 premium support", "Custom integration & onboarding"] },
     ],
     whoShouldUse: ["Enterprise data teams requiring 99.99% uptime for mission-critical operations", "Financial institutions collecting market data and pricing intelligence", "Ad tech companies verifying global ad placements and combating fraud", "Large-scale e-commerce platforms monitoring competitor pricing", "Business intelligence firms aggregating market data across regions", "Compliance teams performing KYC and anti-fraud verification", "Government agencies conducting open-source intelligence collection", "Media monitoring services tracking global news and brand mentions"],
+    affiliateUrl: "https://netnut.io/",
   },
   {
     rank: 6, name: "Proxy-Seller", slug: "proxy-seller", type: "Datacenter", score: 9.30,
@@ -137,6 +142,7 @@ export const providers: Provider[] = [
       { name: "100+", price: "Custom", features: ["Enterprise pricing", "Dedicated subnets", "SLA guarantee", "Account manager", "Invoice billing"] },
     ],
     whoShouldUse: ["Social media marketers managing multiple platform accounts", "E-commerce sellers maintaining marketplace presence on Amazon, eBay, Etsy", "Small businesses needing consistent IP presence for online operations", "Account managers requiring one dedicated IP per account", "Local SEO agencies running geo-specific campaigns", "Digital marketers managing PPC campaigns across locations", "Freelancers needing reliable dedicated proxies", "Agencies managing client accounts across multiple platforms"],
+    affiliateUrl: "https://proxy-seller.com/",
   },
   {
     rank: 7, name: "Proxy-Cheap", slug: "proxy-cheap", type: "Datacenter", score: 8.80,
@@ -156,6 +162,7 @@ export const providers: Provider[] = [
       { name: "Pack 100+", price: "Custom", features: ["Volume pricing", "Dedicated subnets", "SLA guarantee", "Account manager", "Invoice billing"] },
     ],
     whoShouldUse: ["Users with extreme budget constraints needing basic proxy functionality", "Hobby projects and personal automation scripts", "Testing and development environments", "Students learning proxy technologies", "Small-scale social media operations", "Low-volume web scraping projects"],
+    affiliateUrl: "https://app.proxy-cheap.com/r/nAPT9Q",
   },
   {
     rank: 8, name: "PacketStream", slug: "packetstream", type: "Residential", score: 8.50,
@@ -175,6 +182,7 @@ export const providers: Provider[] = [
       { name: "1000 GB", price: "$800", features: ["Enterprise pricing", "Priority support", "SLA available", "Custom integration", "Account manager"] },
     ],
     whoShouldUse: ["Ultra-budget users who prioritize cost above all else", "Casual web scrapers with moderate bandwidth needs", "Academic researchers on limited funding", "Students learning web scraping and proxy technologies", "Hobbyists building personal automation projects", "Small operations testing residential proxy viability"],
+    affiliateUrl: "https://packetstream.io/",
   },
   {
     rank: 9, name: "MyPrivateProxy", slug: "myprivateproxy", type: "Datacenter", score: 8.60,
@@ -194,6 +202,7 @@ export const providers: Provider[] = [
       { name: "100+", price: "Custom", features: ["Volume pricing", "Dedicated subnets", "Priority support", "SLA guarantee", "Custom configuration"] },
     ],
     whoShouldUse: ["Long-term proxy users wanting proven reliability", "Basic web scraping operations in US and EU", "Account management requiring consistent IPs", "Small agencies with straightforward proxy needs", "Businesses preferring established providers"],
+    affiliateUrl: "https://www.myprivateproxy.net/billing/aff.php?aff=4098",
   },
   {
     rank: 10, name: "SSL Private Proxy", slug: "ssl-private-proxy", type: "Datacenter", score: 8.65,
@@ -213,6 +222,7 @@ export const providers: Provider[] = [
       { name: "50+", price: "Custom", features: ["Volume pricing", "Fresh IPs on demand", "SLA guarantee", "Priority support", "Custom configuration"] },
     ],
     whoShouldUse: ["SEO agencies tracking US search engine rankings", "Classified ad managers posting on Craigslist and similar platforms", "US-focused businesses needing consistent datacenter proxies", "Rank tracking tools requiring reliable US IP addresses", "Small agencies managing local SEO campaigns"],
+    affiliateUrl: "http://www.sslprivateproxy.com/billing/aff.php?aff=1411",
   },
   {
     rank: 11, name: "GeoSurf", slug: "geosurf", type: "Residential", score: 8.75,
@@ -232,6 +242,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["Custom volume", "Custom SLA", "Compliance docs", "Dedicated infrastructure", "24/7 premium support"] },
     ],
     whoShouldUse: ["Digital advertising agencies verifying ad placements globally", "Ad verification firms monitoring programmatic campaigns", "QA teams testing localized content and geo-fencing", "Localization teams verifying translations and regional content", "Brand safety teams monitoring ad adjacency", "Competitive intelligence teams analyzing market presence"],
+    affiliateUrl: "https://www.geosurf.com/",
   },
   {
     rank: 12, name: "Bright Data", slug: "bright-data", type: "Residential", score: 9.20,
@@ -251,6 +262,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["Custom infrastructure", "Dedicated proxy pools", "Premium SLA with credits", "24/7 premium support", "Compliance documentation"] },
     ],
     whoShouldUse: ["Fortune 500 companies with enterprise data collection requirements", "Data intelligence firms building commercial datasets", "E-commerce platforms monitoring millions of product prices globally", "Financial services companies collecting market and alternative data", "Travel companies aggregating flight and hotel pricing worldwide", "Ad tech firms running global ad verification campaigns", "Cybersecurity teams conducting threat intelligence research", "Research institutions performing large-scale academic data collection"],
+    affiliateUrl: "https://brightdata.com/",
   },
   {
     rank: 13, name: "Oxylabs", slug: "oxylabs", type: "Residential", score: 9.10,
@@ -270,6 +282,7 @@ export const providers: Provider[] = [
       { name: "Premium", price: "Custom", features: ["Custom volume pricing", "Dedicated infrastructure", "Premium SLA with credits", "24/7 support", "Compliance documentation"] },
     ],
     whoShouldUse: ["Enterprise data collection teams needing integrated scraping solutions", "Market research firms requiring the largest possible IP diversity", "Travel aggregators scraping flight and hotel prices globally", "Price monitoring services tracking millions of products", "SEO agencies needing reliable SERP scraping across locations", "E-commerce intelligence firms monitoring marketplace trends", "Compliance and KYC teams performing identity verification", "Media monitoring services tracking brand mentions and sentiment"],
+    affiliateUrl: "https://oxylabs.io/",
   },
   {
     rank: 14, name: "Smartproxy", slug: "smartproxy", type: "Residential", score: 9.05,
@@ -289,6 +302,7 @@ export const providers: Provider[] = [
       { name: "Advanced", price: "$200/mo", features: ["100 GB included", "ASN targeting", "Dedicated account manager", "Priority routing", "Custom integration"] },
     ],
     whoShouldUse: ["Small to medium businesses needing reliable residential proxy access", "Marketing agencies managing proxy operations for multiple clients", "Freelance developers building web scraping and automation tools", "Growing startups that need proxies without enterprise complexity", "SEO professionals tracking keyword rankings across locations", "Content creators verifying geo-restricted content delivery", "Researchers collecting web data for market analysis", "E-commerce teams monitoring competitor prices and inventory"],
+    affiliateUrl: "https://smartproxy.com/",
   },
   {
     rank: 15, name: "Rayobyte", slug: "rayobyte", type: "Datacenter", score: 9.00,
@@ -308,6 +322,7 @@ export const providers: Provider[] = [
       { name: "500+", price: "Custom", features: ["Volume pricing", "Dedicated subnets", "SLA guarantee", "Account manager", "Custom integration"] },
     ],
     whoShouldUse: ["SEO professionals needing reliable proxies for rank tracking", "Sneaker enthusiasts using bots on Nike, Adidas, and Footlocker", "Ticket purchasers automating purchases on Ticketmaster", "Data researchers requiring ethically sourced proxy infrastructure", "Small agencies managing client SEO campaigns", "E-commerce sellers needing consistent IP presence", "QA teams testing applications across multiple locations", "Individual users wanting premium quality at fair pricing"],
+    affiliateUrl: "https://rayobyte.com/",
   },
   {
     rank: 16, name: "SOAX", slug: "soax", type: "Residential", score: 8.95,
@@ -327,6 +342,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["Custom volume", "Dedicated infrastructure", "SLA guarantee", "Custom integration", "24/7 support"] },
     ],
     whoShouldUse: ["Ad verification companies requiring ISP and ZIP-level precision", "Brand protection teams monitoring geo-specific trademark violations", "Compliance teams testing geo-fencing and location-based restrictions", "Localized testing teams verifying content delivery by region", "Market research firms collecting location-specific consumer data", "Real estate platforms monitoring listings by ZIP code", "Financial services verifying location-based pricing compliance", "Government agencies performing geo-specific open-source intelligence"],
+    affiliateUrl: "https://soax.com/",
   },
   {
     rank: 17, name: "Storm Proxies", slug: "storm-proxies", type: "Datacenter", score: 8.90,
@@ -346,6 +362,7 @@ export const providers: Provider[] = [
       { name: "50 Ports", price: "$79/mo", features: ["50 rotating ports", "Unlimited bandwidth", "All locations", "Priority support", "IP refreshing"] },
     ],
     whoShouldUse: ["Beginners learning web scraping and proxy usage", "Simple data collection and price monitoring tasks", "Small businesses with basic proxy requirements", "Testing and development environments", "Students building proxy-based projects", "Hobbyists running small automation scripts"],
+    affiliateUrl: "https://stormproxies.com/",
   },
   {
     rank: 18, name: "Hydraproxy", slug: "hydraproxy", type: "Residential", score: 8.85,
@@ -365,6 +382,7 @@ export const providers: Provider[] = [
       { name: "Business", price: "Custom", features: ["500+ GB volume", "Account manager", "SLA guarantee", "Custom integration", "Invoice billing"] },
     ],
     whoShouldUse: ["Budget users needing genuine residential proxy access", "Small web scraping projects with moderate bandwidth needs", "Individual researchers collecting geo-specific data", "Startups testing proxy-dependent products and services", "Freelancers running client proxy operations on a budget", "Hobbyists and students building proxy projects"],
+    affiliateUrl: "https://hydraproxy.com/",
   },
   {
     rank: 19, name: "Highproxies", slug: "highproxies", type: "Datacenter", score: 8.70,
@@ -384,6 +402,7 @@ export const providers: Provider[] = [
       { name: "100+", price: "Custom", features: ["Volume pricing", "All virgin IPs", "SLA guarantee", "Account manager", "Custom subnet config"] },
     ],
     whoShouldUse: ["Social media managers operating multiple Instagram accounts", "Influencer marketing agencies managing client accounts", "Growth marketing teams running social media campaigns", "Community managers handling multiple brand presences", "Social media automation tool users needing safe proxies"],
+    affiliateUrl: "https://www.highproxies.com/",
   },
   {
     rank: 20, name: "Anonymize.com", slug: "anonymize", type: "Residential", score: 8.55,
@@ -403,6 +422,7 @@ export const providers: Provider[] = [
       { name: "Business", price: "Custom", features: ["Team management", "Dedicated IPs", "SLA guarantee", "Admin dashboard", "Invoice billing"] },
     ],
     whoShouldUse: ["Privacy enthusiasts wanting comprehensive anonymity tools", "Journalists and researchers needing source protection", "Travelers securing connections on public networks", "Remote workers protecting sensitive company data", "Activists in regions with internet surveillance", "General users wanting simple online privacy"],
+    affiliateUrl: "https://anonymize.com/",
   },
 ];
 ;
