@@ -1,9 +1,10 @@
 import { useParams, Link } from "react-router-dom";
-import { Star, ArrowRight } from "lucide-react";
+import { Star, ArrowRight, ExternalLink } from "lucide-react";
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 import { getComparisonBySlug } from "@/data/comparisons";
+import { getProviderBySlug } from "@/data/providers";
 
 const BASE = "https://topvpnr.com";
 
