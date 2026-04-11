@@ -185,7 +185,7 @@ export default function ReviewPage() {
               <h2 className="mb-2 font-display text-xl font-bold">Final Verdict — {provider.name} Review 2026</h2>
               <p className="text-muted-foreground leading-relaxed">{provider.verdict}</p>
               <p className="text-muted-foreground leading-relaxed mt-2">{provider.extendedVerdict}</p>
-              <a href="#" className="mt-4 inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
+              <a href={provider.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="mt-4 inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
                 Visit {provider.name} <ExternalLink className="h-4 w-4" />
               </a>
             </div>
@@ -215,7 +215,7 @@ export default function ReviewPage() {
                   <div className="flex justify-between"><dt className="text-muted-foreground">Uptime</dt><dd className="font-medium">{provider.uptime}</dd></div>
                   <div className="flex justify-between"><dt className="text-muted-foreground">Protocols</dt><dd className="font-medium">{provider.protocols.join(", ")}</dd></div>
                 </dl>
-                <a href="#" className="mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90">
+                <a href={provider.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90">
                   Visit {provider.name} <ExternalLink className="h-3.5 w-3.5" />
                 </a>
               </div>

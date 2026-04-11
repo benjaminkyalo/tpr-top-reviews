@@ -67,7 +67,7 @@ export default function BestOfPage() {
                 </div>
                 <p className="mt-1 text-sm text-muted-foreground">{pick.reason}</p>
               </div>
-              <a href="#" className="inline-flex shrink-0 items-center gap-1 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90">Visit <ExternalLink className="h-3 w-3" /></a>
+              <a href={prov?.affiliateUrl || "#"} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex shrink-0 items-center gap-1 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90">Visit <ExternalLink className="h-3 w-3" /></a>
             </div>
           );
         })}
