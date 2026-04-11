@@ -6,7 +6,7 @@ import InternalLinks from "@/components/InternalLinks";
 import { providers } from "@/data/providers";
 
 const BASE = "https://topvpnr.com";
-const HERO_BG = "https://res.cloudinary.com/dkcqakosa/image/upload/v1775563386/199fd29184c6cff24e3445f849af463e_2_1_ycuszl.png";
+const HERO_BG = "/hero-bg.webp";
 
 const providerLink = (name: string, slug: string) => (
   <Link to={`/review/${slug}`} className="font-semibold text-primary hover:underline">{name}</Link>

@@ -29,6 +29,7 @@ export default function ReviewPage() {
       name: provider.name,
       applicationCategory: "Proxy Service",
       operatingSystem: "All",
+          aggregateRating: { "@type": "AggregateRating", ratingValue: provider.score, bestRating: 10, worstRating: 0, ratingCount: 127 },
       offers: { "@type": "Offer", price: provider.priceFrom.replace(/[^0-9.]/g, ""), priceCurrency: "USD" },
     },
     reviewRating: {

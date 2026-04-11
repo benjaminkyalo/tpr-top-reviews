@@ -80,7 +80,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <button className="lg:hidden" onClick={() => setMobileOpen(!mobileOpen)}>
+        <button className="lg:hidden" aria-label="Toggle mobile menu" onClick={() => setMobileOpen(!mobileOpen)}>
           {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
       </div>

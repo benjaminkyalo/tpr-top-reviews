@@ -13,7 +13,7 @@ export default function Footer() {
             <p className="mt-3 text-sm text-muted-foreground">Independent proxy and VPN reviews since 2024. We test every service we recommend.</p>
           </div>
           <div>
-            <h4 className="mb-3 text-sm font-semibold text-foreground">Reviews</h4>
+            <h3 className="mb-3 text-sm font-semibold text-foreground">Reviews</h3>
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
               <Link to="/review/webshare" className="hover:text-foreground">Webshare Review</Link>
               <Link to="/review/iproyal" className="hover:text-foreground">IPRoyal Review</Link>
@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h4 className="mb-3 text-sm font-semibold text-foreground">Resources</h4>
+            <h3 className="mb-3 text-sm font-semibold text-foreground">Resources</h3>
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
               <Link to="/best/best-residential-proxies" className="hover:text-foreground">Best Residential Proxies</Link>
               <Link to="/best/best-datacenter-proxies" className="hover:text-foreground">Best Datacenter Proxies</Link>
@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h4 className="mb-3 text-sm font-semibold text-foreground">Company</h4>
+            <h3 className="mb-3 text-sm font-semibold text-foreground">Company</h3>
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
               <Link to="/about" className="hover:text-foreground">About Us</Link>
               <Link to="/privacy" className="hover:text-foreground">Privacy Policy</Link>

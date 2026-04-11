@@ -22,7 +22,7 @@
     --secondary-foreground: 210 30% 20%;
 
     --muted: 210 15% 95%;
-    --muted-foreground: 210 10% 45%;
+    --muted-foreground: 210 10% 35%;
 
     --accent: 0 68% 42%;
     --accent-foreground: 0 0% 100%;
@@ -48,10 +48,10 @@
     /* Custom tokens */
     --surface: 210 15% 96%;
     --surface-hover: 210 15% 92%;
-    --score-gold: 45 90% 40%;
+    --score-gold: 45 90% 30%;
     --badge-residential: 150 60% 35%;
     --badge-datacenter: 210 70% 45%;
-    --text-dim: 210 10% 50%;
+    --text-dim: 210 10% 35%;
   }
 }
 
