@@ -62,7 +62,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["Custom volume discounts", "SLA guarantee", "Dedicated account manager", "Custom integration", "Invoice billing"] },
     ],
     whoShouldUse: ["E-commerce businesses monitoring competitor pricing and inventory", "Ad verification teams validating global ad placements", "Social media managers operating multiple platform accounts", "Price comparison platforms aggregating retail data", "Market research firms collecting consumer behavior data", "Brand protection teams monitoring trademark violations", "SEO agencies tracking localized search rankings", "Travel and hospitality companies comparing rates across markets"],
-    affiliateUrl: "https://iproyal.com/?r=residentialproxies",
+    affiliateUrl: "https://iproyal.com/?r=1289846",
   },
   {
     rank: 3, name: "Shifter.io", slug: "shifter-io", type: "Residential", score: 9.60,
@@ -82,7 +82,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["500+ concurrent ports", "Dedicated infrastructure", "SLA guarantee", "Custom integration", "Account manager"] },
     ],
     whoShouldUse: ["Large-scale web scraping operations processing millions of pages", "Data aggregation companies building comprehensive datasets", "Market intelligence firms monitoring global trends", "Enterprise data teams with unpredictable bandwidth needs", "Price monitoring services tracking thousands of products", "Real estate data aggregators collecting listing information", "Travel industry scrapers comparing prices across platforms", "News and media monitoring services aggregating content"],
-    affiliateUrl: "https://shifter.io/r/y0W4/homepage",
+    affiliateUrl: "https://shifter.io/r/y0W4/register",
   },
   {
     rank: 4, name: "ProxyScrape", slug: "proxyscrape", type: "Datacenter", score: 9.50,
@@ -122,7 +122,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["Custom volume with volume discounts", "Dedicated ISP peering", "SLA guarantee with credits", "24/7 premium support", "Custom integration & onboarding"] },
     ],
     whoShouldUse: ["Enterprise data teams requiring 99.99% uptime for mission-critical operations", "Financial institutions collecting market data and pricing intelligence", "Ad tech companies verifying global ad placements and combating fraud", "Large-scale e-commerce platforms monitoring competitor pricing", "Business intelligence firms aggregating market data across regions", "Compliance teams performing KYC and anti-fraud verification", "Government agencies conducting open-source intelligence collection", "Media monitoring services tracking global news and brand mentions"],
-    affiliateUrl: "https://netnut.io/",
+    affiliateUrl: "https://netnut.io?ref=mmq0nwq",
   },
   {
     rank: 6, name: "Proxy-Seller", slug: "proxy-seller", type: "Datacenter", score: 9.30,
@@ -142,7 +142,7 @@ export const providers: Provider[] = [
       { name: "100+", price: "Custom", features: ["Enterprise pricing", "Dedicated subnets", "SLA guarantee", "Account manager", "Invoice billing"] },
     ],
     whoShouldUse: ["Social media marketers managing multiple platform accounts", "E-commerce sellers maintaining marketplace presence on Amazon, eBay, Etsy", "Small businesses needing consistent IP presence for online operations", "Account managers requiring one dedicated IP per account", "Local SEO agencies running geo-specific campaigns", "Digital marketers managing PPC campaigns across locations", "Freelancers needing reliable dedicated proxies", "Agencies managing client accounts across multiple platforms"],
-    affiliateUrl: "https://proxy-seller.com/",
+    affiliateUrl: "https://proxy-seller.com/?partner=4PB3INBLBLHU1G",
   },
   {
     rank: 7, name: "Proxy-Cheap", slug: "proxy-cheap", type: "Datacenter", score: 8.80,
