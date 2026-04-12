@@ -3,6 +3,7 @@ import { Star, ExternalLink, Check, X, Gauge, Globe, Zap, Shield } from "lucide-
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
+import UserReviews from "@/components/UserReviews";
 import { getProviderBySlug, providers } from "@/data/providers";
 
 const BASE = "https://topvpnr.com";
@@ -191,14 +192,19 @@ export default function ReviewPage() {
               </a>
             </div>
 
+            {/* User Reviews Section */}
+            <UserReviews providerSlug={provider.slug} providerName={provider.name} />
+
             <InternalLinks
               title="Compare & Explore More"
               links={[
                 ...relatedProviders.map(p => ({ label: `${p.name} Review`, path: `/review/${p.slug}` })),
+                { label: `${provider.name} Speed Test`, path: `/speed-test/${provider.slug}` },
+                { label: "All Speed Tests", path: "/speed-tests" },
+                { label: "Proxy Checker Tool", path: "/proxy-checker" },
                 { label: "Best Residential Proxies 2026", path: "/best/best-residential-proxies" },
                 { label: "Best Datacenter Proxies 2026", path: "/best/best-datacenter-proxies" },
                 { label: "Residential vs Datacenter", path: "/compare/residential-vs-datacenter-proxy" },
-                { label: "What is a Proxy Server?", path: "/learn/what-is-proxy-server" },
               ]}
             />
           </div>

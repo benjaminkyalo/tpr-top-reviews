@@ -19,6 +19,11 @@ import TermsPage from "./pages/TermsPage";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
+import SpeedTestsHub from "./pages/SpeedTestsHub";
+import SpeedTestPage from "./pages/SpeedTestPage";
+import CountryProxiesHub from "./pages/CountryProxiesHub";
+import CountryProxyPage from "./pages/CountryProxyPage";
+import ProxyCheckerPage from "./pages/ProxyCheckerPage";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +45,11 @@ const App = () => (
           <Route path="/guides" element={<GuidesHub />} />
           <Route path="/how-to/:slug" element={<HowToPage />} />
           <Route path="/learn/:slug" element={<EducationalPage />} />
+          <Route path="/speed-tests" element={<SpeedTestsHub />} />
+          <Route path="/speed-test/:slug" element={<SpeedTestPage />} />
+          <Route path="/proxies-by-country" element={<CountryProxiesHub />} />
+          <Route path="/best-proxies/:slug" element={<CountryProxyPage />} />
+          <Route path="/proxy-checker" element={<ProxyCheckerPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
