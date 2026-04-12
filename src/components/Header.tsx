@@ -19,9 +19,13 @@ const navItems = [
   { label: "Best Picks", path: "/best", children: [
     { label: "Best Residential Proxies", path: "/best/best-residential-proxies" },
     { label: "Best Datacenter Proxies", path: "/best/best-datacenter-proxies" },
-    { label: "Best for Scraping", path: "/best/best-proxies-scraping" },
+    { label: "By Country", path: "/proxies-by-country" },
   ]},
-  { label: "How-To Guides", path: "/guides", children: [
+  { label: "Tools", path: "/speed-tests", children: [
+    { label: "Speed Tests", path: "/speed-tests" },
+    { label: "Proxy Checker", path: "/proxy-checker" },
+  ]},
+  { label: "Guides", path: "/guides", children: [
     { label: "Set Up Rotating Proxies", path: "/how-to/how-to-set-up-rotating-proxies" },
     { label: "Use Proxy with Python", path: "/how-to/how-to-use-proxy-with-python" },
     { label: "Choose the Right Proxy", path: "/how-to/how-to-choose-right-proxy" },
