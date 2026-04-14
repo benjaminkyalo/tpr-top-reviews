@@ -24,6 +24,8 @@ import SpeedTestPage from "./pages/SpeedTestPage";
 import CountryProxiesHub from "./pages/CountryProxiesHub";
 import CountryProxyPage from "./pages/CountryProxyPage";
 import ProxyCheckerPage from "./pages/ProxyCheckerPage";
+import BlogHub from "./pages/BlogHub";
+import BlogPostPage from "./pages/BlogPostPage";
 
 const queryClient = new QueryClient();
 
@@ -50,6 +52,8 @@ const App = () => (
           <Route path="/proxies-by-country" element={<CountryProxiesHub />} />
           <Route path="/best-proxies/:slug" element={<CountryProxyPage />} />
           <Route path="/proxy-checker" element={<ProxyCheckerPage />} />
+          <Route path="/blog" element={<BlogHub />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
