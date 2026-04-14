@@ -25,6 +25,13 @@ const navItems = [
     { label: "Speed Tests", path: "/speed-tests" },
     { label: "Proxy Checker", path: "/proxy-checker" },
   ]},
+  { label: "Blog", path: "/blog", children: [
+    { label: "Industry Trends 2026", path: "/blog/proxy-industry-trends-2026" },
+    { label: "Residential vs Datacenter", path: "/blog/residential-vs-datacenter-2026" },
+    { label: "Python Scraping Guide", path: "/blog/web-scraping-python-proxies-complete-guide" },
+    { label: "Instagram Proxy Guide", path: "/blog/instagram-proxy-guide-2026" },
+    { label: "All Articles", path: "/blog" },
+  ]},
   { label: "Guides", path: "/guides", children: [
     { label: "Set Up Rotating Proxies", path: "/how-to/how-to-set-up-rotating-proxies" },
     { label: "Use Proxy with Python", path: "/how-to/how-to-use-proxy-with-python" },

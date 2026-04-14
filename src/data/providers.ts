@@ -262,7 +262,7 @@ export const providers: Provider[] = [
       { name: "Enterprise", price: "Custom", features: ["Custom infrastructure", "Dedicated proxy pools", "Premium SLA with credits", "24/7 premium support", "Compliance documentation"] },
     ],
     whoShouldUse: ["Fortune 500 companies with enterprise data collection requirements", "Data intelligence firms building commercial datasets", "E-commerce platforms monitoring millions of product prices globally", "Financial services companies collecting market and alternative data", "Travel companies aggregating flight and hotel pricing worldwide", "Ad tech firms running global ad verification campaigns", "Cybersecurity teams conducting threat intelligence research", "Research institutions performing large-scale academic data collection"],
-    affiliateUrl: "https://brightdata.com/",
+    affiliateUrl: "https://get.brightdata.com/68a0yf9mr2cl",
   },
   {
     rank: 13, name: "Oxylabs", slug: "oxylabs", type: "Residential", score: 9.10,
