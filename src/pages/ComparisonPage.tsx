@@ -35,7 +35,7 @@ export default function ComparisonPage() {
 
   return (
     <Layout>
-      <SEOHead title={comp.metaTitle} description={comp.metaDesc} canonical={`${BASE}/compare/${comp.slug}`} jsonLd={faqLd} />
+      <SEOHead title={comp.metaTitle} description={comp.metaDesc} canonical={`${BASE}/compare/${comp.slug}`} jsonLd={[faqLd, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topvpnr.com/"},{"@type":"ListItem","position":2,"name":"Comparisons","item":"https://topvpnr.com/comparisons"}]}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
 
       <section className="border-b border-border bg-muted/30 py-12">

@@ -65,7 +65,7 @@ export default function BlogPostPage() {
         title={post.metaTitle}
         description={post.metaDesc}
         canonical={`${BASE}/blog/${post.slug}`}
-        jsonLd={articleLd}
+        jsonLd={[articleLd, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topvpnr.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://topvpnr.com/blog"}]}]}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
