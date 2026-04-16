@@ -62,7 +62,7 @@ export default function ReviewPage() {
         title={`${provider.name} Review 2026 – Expert Score ${provider.score}/10 | TPR`}
         description={`Detailed ${provider.name} review for 2026. ${provider.type} proxy provider scored ${provider.score}/10. ${provider.bestFor}. Pricing from ${provider.priceFrom}. Honest pros, cons, performance metrics, and expert verdict.`}
         canonical={`${BASE}/review/${provider.slug}`}
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://topvpnr.com/" }, { "@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://topvpnr.com/reviews" }, { "@type": "ListItem", "position": 3, "name": provider.name, "item": `https://topvpnr.com/review/${provider.slug}` }] }]}
       />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />

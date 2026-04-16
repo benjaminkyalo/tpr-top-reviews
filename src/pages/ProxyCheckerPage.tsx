@@ -104,7 +104,7 @@ export default function ProxyCheckerPage() {
         title="Free Proxy Checker Tool 2026 – Test Any Proxy Instantly | TPR"
         description="Free online proxy checker and tester. Validate HTTP, HTTPS, SOCKS4, SOCKS5 proxies for speed, anonymity, location, and HTTPS support. No registration required."
         canonical={`${BASE}/proxy-checker`}
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topvpnr.com/"},{"@type":"ListItem","position":2,"name":"Proxy Checker","item":"https://topvpnr.com/proxy-checker"}]}]}
       />
 
       <section className="border-b border-border bg-muted/30 py-12">

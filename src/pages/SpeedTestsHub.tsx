@@ -23,7 +23,7 @@ export default function SpeedTestsHub() {
         title="Proxy Speed Test Results 2026 – Independent Benchmarks | TPR"
         description="Real proxy speed test data for 20+ providers. Compare latency, download speed, upload speed, and success rates. Independent benchmarks updated April 2026."
         canonical={`${BASE}/speed-tests`}
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topvpnr.com/"},{"@type":"ListItem","position":2,"name":"Speed Tests","item":"https://topvpnr.com/speed-tests"}]}]}
       />
 
       <section className="border-b border-border bg-muted/30 py-12">

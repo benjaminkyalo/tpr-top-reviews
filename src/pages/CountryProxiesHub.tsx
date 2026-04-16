@@ -23,7 +23,7 @@ export default function CountryProxiesHub() {
         title="Best Proxies by Country 2026 – Residential & Datacenter | TPR"
         description="Find the best proxy providers for any country. Residential and datacenter proxies tested for 20+ countries. Expert-ranked with real speed data."
         canonical={`${BASE}/proxies-by-country`}
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topvpnr.com/"},{"@type":"ListItem","position":2,"name":"Proxies by Country","item":"https://topvpnr.com/proxies-by-country"}]}]}
       />
 
       <section className="border-b border-border bg-muted/30 py-12">

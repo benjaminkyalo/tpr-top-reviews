@@ -5,7 +5,7 @@ interface SEOHeadProps {
   description: string;
   canonical?: string;
   type?: string;
-  jsonLd?: Record<string, any>;
+  jsonLd?: Record<string, any> | Record<string, any>[];
 }
 
 export default function SEOHead({ title, description, canonical, type = "website", jsonLd }: SEOHeadProps) {
@@ -46,7 +46,7 @@ export default function SEOHead({ title, description, canonical, type = "website
       const script = document.createElement("script");
       script.id = "json-ld-seo";
       script.type = "application/ld+json";
-      script.textContent = JSON.stringify(jsonLd);
+      script.textContent = JSON.stringify(Array.isArray(jsonLd) ? { "@context": "https://schema.org", "@graph": jsonLd } : jsonLd);
       document.head.appendChild(script);
     }
 

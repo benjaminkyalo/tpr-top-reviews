@@ -21,7 +21,7 @@ export default function ReviewsHub() {
         title="All Proxy & VPN Reviews 2026 – Expert Tested | TPR"
         description="Read independent, expert-tested reviews of 20+ proxy and VPN providers including Bright Data, Oxylabs, Smartproxy, IPRoyal, Webshare, and more. Updated April 2026."
         canonical={`${BASE}/reviews`}
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topvpnr.com/"},{"@type":"ListItem","position":2,"name":"Reviews","item":"https://topvpnr.com/reviews"}]}]}
       />
 
       <section className="border-b border-border bg-muted/30 py-12">

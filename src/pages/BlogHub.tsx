@@ -27,7 +27,7 @@ export default function BlogHub() {
         title="Proxy Blog — Industry News, Tutorials & Expert Analysis 2026 | TPR"
         description="Expert proxy industry analysis, in-depth tutorials, and market insights. Covering residential proxies, web scraping, security, and proxy technology trends in 2026."
         canonical={`${BASE}/blog`}
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topvpnr.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://topvpnr.com/blog"}]}]}
       />
 
       <section className="border-b border-border bg-muted/30 py-12 md:py-16">

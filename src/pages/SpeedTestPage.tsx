@@ -45,7 +45,7 @@ export default function SpeedTestPage() {
         title={`${test.provider} Speed Test 2026 – Latency ${test.latency.avg}ms | TPR`}
         description={`${test.provider} proxy speed test results: ${test.latency.avg}ms latency, ${test.download.avg} Mbps download, ${test.successRate}% success rate. Independent benchmark data from ${test.testDate}.`}
         canonical={`${BASE}/speed-test/${slug}`}
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topvpnr.com/"},{"@type":"ListItem","position":2,"name":"Speed Tests","item":"https://topvpnr.com/speed-tests"}]}]}
       />
 
       <section className="border-b border-border bg-muted/30 py-12">
