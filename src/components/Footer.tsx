@@ -43,8 +43,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} TPR — Top Proxy Reviews. All rights reserved. Last updated April 2026.
-        </div>
+          © {new Date().getFullYear()} TPR — Top Proxy Reviews. All rights reserved. | <a href="https://www.toptierproxy.com" target="_blank" rel="noopener" className="hover:text-primary">Top Proxy Rankings</a>
       </div>
     </footer>
   );
