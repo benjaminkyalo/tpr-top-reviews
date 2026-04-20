@@ -7,7 +7,7 @@ import { speedTests } from "@/data/speedTests";
 import { countryProxyPages } from "@/data/countries";
 import { blogPosts } from "@/data/blog";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 function entry(path: string, priority: string, changefreq = "weekly") {
   return `  <url>\n    <loc>${BASE}${path}</loc>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n    <lastmod>2026-04-14</lastmod>\n  </url>`;
