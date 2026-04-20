@@ -5,7 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 import { providers } from "@/data/providers";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 const HERO_BG = "/hero-bg.webp";
 
 const providerLink = (name: string, slug: string) => (

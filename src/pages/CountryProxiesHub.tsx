@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import { countryProxyPages } from "@/data/countries";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 export default function CountryProxiesHub() {
   const countries = [...new Set(countryProxyPages.map((p) => p.country))];

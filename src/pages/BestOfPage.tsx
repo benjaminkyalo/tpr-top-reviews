@@ -6,7 +6,7 @@ import InternalLinks from "@/components/InternalLinks";
 import { getBestOfBySlug } from "@/data/bestOf";
 import { getProviderBySlug } from "@/data/providers";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 export default function BestOfPage() {
   const { slug } = useParams<{ slug: string }>();

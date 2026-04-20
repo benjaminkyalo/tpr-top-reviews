@@ -5,7 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 import { blogPosts, blogCategories } from "@/data/blog";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 export default function BlogHub() {
   const jsonLd = {

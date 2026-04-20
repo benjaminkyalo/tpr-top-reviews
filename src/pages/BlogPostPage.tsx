@@ -6,7 +6,7 @@ import InternalLinks from "@/components/InternalLinks";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog";
 import { getProviderBySlug } from "@/data/providers";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 export default function BlogPostPage() {
   const { slug } = useParams<{ slug: string }>();

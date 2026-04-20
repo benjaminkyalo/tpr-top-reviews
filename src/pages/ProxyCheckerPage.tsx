@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 interface CheckResult {
   valid: boolean;

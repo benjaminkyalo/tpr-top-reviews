@@ -6,7 +6,7 @@ import InternalLinks from "@/components/InternalLinks";
 import { getCountryPageBySlug, countryProxyPages } from "@/data/countries";
 import { getProviderBySlug } from "@/data/providers";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 export default function CountryProxyPage() {
   const { slug } = useParams<{ slug: string }>();

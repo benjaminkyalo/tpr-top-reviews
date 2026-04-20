@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import { speedTests } from "@/data/speedTests";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 export default function SpeedTestsHub() {
   const sorted = [...speedTests].sort((a, b) => a.latency.avg - b.latency.avg);

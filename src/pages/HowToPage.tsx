@@ -5,7 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import InternalLinks from "@/components/InternalLinks";
 import { getHowToBySlug } from "@/data/howTo";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 export default function HowToPage() {
   const { slug } = useParams<{ slug: string }>();

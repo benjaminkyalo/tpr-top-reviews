@@ -6,7 +6,7 @@ import InternalLinks from "@/components/InternalLinks";
 import { getComparisonBySlug } from "@/data/comparisons";
 import { getProviderBySlug } from "@/data/providers";
 
-const BASE = "https://topvpnr.com";
+const BASE = "https://www.topvpnr.com";
 
 export default function ComparisonPage() {
   const { slug } = useParams<{ slug: string }>();
