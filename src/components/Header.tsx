@@ -19,7 +19,17 @@ const navItems = [
   { label: "Best Picks", path: "/best", children: [
     { label: "Best Residential Proxies", path: "/best/best-residential-proxies" },
     { label: "Best Datacenter Proxies", path: "/best/best-datacenter-proxies" },
+    { label: "Best Free Proxies", path: "/best/best-free-proxies" },
+    { label: "Best Proxies for Scraping", path: "/best/best-proxies-scraping" },
     { label: "By Country", path: "/proxies-by-country" },
+    { label: "🇺🇸 USA", path: "/best/best-proxies-usa-2026" },
+    { label: "🇬🇧 United Kingdom", path: "/best/best-residential-proxies-united-kingdom-2026" },
+    { label: "🇧🇷 Brazil", path: "/best/best-proxies-brazil-2026" },
+    { label: "🇮🇳 India", path: "/best/best-datacenter-proxies-india-2026" },
+    { label: "🇨🇳 China", path: "/best/best-proxies-china-2026" },
+    { label: "🇳🇬 Nigeria", path: "/best/best-proxies-nigeria-2026" },
+    { label: "🇰🇪 Kenya", path: "/best/best-proxies-kenya-2026" },
+    { label: "🌍 See All 100+ Countries →", path: "/best" },
   ]},
   { label: "Tools", path: "/speed-tests", children: [
     { label: "Speed Tests", path: "/speed-tests" },
