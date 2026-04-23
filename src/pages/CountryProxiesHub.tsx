@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Globe, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import { countryProxyPages } from "@/data/countries";
@@ -43,7 +43,15 @@ export default function CountryProxiesHub() {
             return (
               <div key={country} className="rounded-lg border border-border bg-card p-5 transition-colors hover:border-primary/30">
                 <div className="flex items-center gap-2 mb-3">
-                  <Globe className="h-5 w-5 text-primary" />
+                  <img
+                    src={`https://flagcdn.com/w40/${pages[0].countryCode.toLowerCase()}.png`}
+                    srcSet={`https://flagcdn.com/w80/${pages[0].countryCode.toLowerCase()}.png 2x`}
+                    width="40"
+                    height="27"
+                    alt={`${country} flag`}
+                    className="rounded-sm shadow-sm object-cover"
+                    loading="lazy"
+                  />
                   <h2 className="font-semibold">{country}</h2>
                 </div>
                 <div className="space-y-2">
